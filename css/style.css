@@ -1,0 +1,9 @@
+#contactus {
+    background-color: rgb(36,28,75);
+    color: rgb(234,232,246);
+}
+
+#contactus #img1 {
+    height: fit-content;
+    width: 50px;
+}
