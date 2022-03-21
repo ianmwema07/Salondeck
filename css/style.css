@@ -57,7 +57,7 @@ button{
   }
 i.quote{
     font-size: 20px;
-    color:#C197D2;
+    color:rgb(201,173,188);
   }
 .content{
     display: flex;
@@ -67,24 +67,24 @@ i.quote{
     padding-top: 10px;
   }
 .name{
-    font-weight: 600;
+    font-weight: 450;
     font-size: 17px;
   }
 .job{
     font-size: 16px;
     font-weight: 500;
-    color:#C197D2;
+    color:rgb(201,173,188);
   }
 .stars{
     margin-top: 5px;
-    color: #C197D2;
+    color:rgb(201,173,188);
   }
 
 .imagereview{
     height: 75px;
     width: 75px;
     padding: 3px;
-    background:#C197D2;
+    background:rgb(201,173,188);
     border-radius: 50%;
     
   }
