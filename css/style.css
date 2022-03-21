@@ -13,6 +13,9 @@
     justify-content: space-between;
     
   }
+.section-5 h1{
+  text-align: center;
+}
 .customerreview{
     width: calc(33% - 10px);
     padding: 25px;
@@ -27,7 +30,7 @@ i.quote{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     padding-top: 10px;
   }
 .name{
@@ -40,7 +43,7 @@ i.quote{
     color:#C197D2;
   }
 .stars{
-    margin-top: 2px;
+    margin-top: 5px;
     color: #C197D2;
   }
 
@@ -50,25 +53,24 @@ i.quote{
     padding: 3px;
     background:#C197D2;
     border-radius: 50%;
+    margin-left: 4%;
+    
   }
 .imagereview img{
     height: 100%;
     width: 100%;
     object-fit: cover;
     border-radius: 50%;
-    border: 2px solid #fff;
-  }
-.imagereview img{
-    border-color: #fff;
+    border: 2px solid white;
   }
 @media (max-width: 1045px) {
-    .review .card{
+    .card{
       width: calc(50% - 10px);
       margin: 10px 0;
     }
   }
 @media (max-width: 702px) {
-    .review .card{
+    .card{
       width: 100%;
     }
   }
