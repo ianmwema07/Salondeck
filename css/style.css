@@ -15,6 +15,10 @@ hr{
 hr.dotted {
   border: 1px solid purple;
 }
+/* .services{
+  width: max-content;
+} */
+
 .card-body h6{
   padding-top: 1%;
 }
@@ -101,3 +105,22 @@ i.quote{
       width: 100%;
     }
   }
+  li {
+    width: 320px;
+    height: 20px;
+    border-bottom: 1px dotted black;
+    background-color: white;
+}
+
+.natural, .price {
+    height: 22px; 
+    background-color: white;
+}
+
+.natural {
+    float: left;
+}
+
+.price {
+    float: right;
+}
