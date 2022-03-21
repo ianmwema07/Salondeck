@@ -5,10 +5,26 @@
 
 
 
+/* rgb(36,28,75) */
+/* rgb(201,173,188) */
+/* rgb(224,205,191) */
+/* rgb(234,232,246) */
 
 
 /* Beginning Ian Styling */
-.form-control {
-  border: 1px solid saddlebrown;
+.section-3 .form-control {
+  border: 1px solid rgb(201,173,188);
+}
+
+.section-3 form{
+  background-color: rgba(36,28,75,0.5) ;
+}
+
+.section-3 form button{
+  align-items: center;
+    width:6em;
+    border: 1px solid rgb(201,173,188);
+    color: #ffffff;
+    margin-bottom: 1em;
 }
  /* End Ian Styling */
