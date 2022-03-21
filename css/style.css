@@ -15,9 +15,9 @@ hr{
 hr.dotted {
   border: 1px solid purple;
 }
-/* .services{
-  width: max-content;
-} */
+.services{
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+}
 
 .card-body h6{
   padding-top: 1%;
