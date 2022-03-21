@@ -3,6 +3,18 @@
     padding: 0;
     box-sizing: border-box;
   }
+.card-body tr{
+  font-size: small;
+  border-collapse:separate;
+  border-spacing:10px 10px;
+
+}
+hr{
+  color: aliceblue;
+}
+hr.dotted {
+  border: 1px solid purple;
+}
 .aboutus{
   text-align: center;
   
