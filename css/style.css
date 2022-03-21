@@ -32,6 +32,10 @@ button{
   text-align: center;
   
 }
+.story{
+  text-align: center;
+}
+
 .review{
     max-width: 1200px;
     margin: auto;
