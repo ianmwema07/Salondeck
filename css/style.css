@@ -62,13 +62,13 @@ i.quote{
     border-color: #fff;
   }
 @media (max-width: 1045px) {
-    .review .box{
+    .review .card{
       width: calc(50% - 10px);
       margin: 10px 0;
     }
   }
 @media (max-width: 702px) {
-    .review .box{
+    .review .card{
       width: 100%;
     }
   }
