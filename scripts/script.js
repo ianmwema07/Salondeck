@@ -1,3 +1,16 @@
+let gallaryImages=document.querySelectorAll(".gallery-img");
+let getLatestOpenedImg;
+let windowWidith =window.innerWidth;
+
+if(gallaryImages){
+    gallaryImages, forEach(function(image){
+        image.onclick=function(){
+            alert("it works")
+        }
+
+    });
+}
+
 
 document.getElementById('contact-form').submit();
     function messageValidate () {
