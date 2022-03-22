@@ -1,3 +1,29 @@
+
+.section-1{
+    background-image: url(../img/benyamin-bohlouli-_C-S7LqxHPw-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: rgb(175, 77, 199);
+    padding-top: 0;
+    height: 50vw;
+    margin: auto;
+}
+#head{
+    font-family: "Zhi Mang Xing", cursive;
+    margin: 0;
+    font-size: 20px;
+    color: #3d050a;
+    padding: 50px 250px;
+}
+.btn-orange{
+    background-color: #632303;
+  margin-bottom: 40px;
+}
+
+=======
 #contactus {
     background-color: rgb(234,232,246) ;
     color: rgb(36,28,75);
@@ -88,3 +114,4 @@
       margin-top: 0;
     }
   } */
+
