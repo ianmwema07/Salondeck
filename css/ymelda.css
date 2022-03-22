@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.section-2 hr{
+  color: aliceblue;
+}
+.section-2 hr.dotted {
+  border: 1px solid purple;
+}
+.section-2 .services{
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+  padding: 20px;
+}
+.section-2 .services:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+  border-radius: 0;
+  border: 0;
+}
+
+.section-2 .card-img-top{
+  max-width: 100%;
+}
+
+.section-2 .card-body h6{
+  padding-top: 1%;
+}
+
+.section-5 .aboutus{
+  text-align: center;
+  /* background-image: url(../img/daniele-levis-pelusi-Vey6fioB1eI-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  max-height: 100%;
+  color: black;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 100px; */
+
+}
+.section-5 .story{
+  text-align: center;
+}
+
+
+.section-5 .review{
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+
+.section-5 .review .customerreview{
+    width: calc(33% - 10px);
+    padding: 25px;
+    border-radius: 3px;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+  }
+.section-5 i.quote{
+    font-size: 20px;
+    color:rgb(36,28,75);
+  }
+.section-5 .review .customerreview .content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+  }
+.section-5 .name{
+    font-weight: 450;
+    font-size: 17px;
+  }
+.section-5 .job{
+    font-size: 16px;
+    font-weight: 500;
+    color:rgb(36,28,75);;
+  }
+.section-5 .stars{
+    margin-top: 5px;
+    color:rgb(36,28,75);
+  }
+
+.section-5 .imagereview{
+    height: 75px;
+    width: 75px;
+    padding: 3px;
+    background:rgb(201,173,188);
+    border-radius: 50%;
+    
+  }
+.section-5  .imagereview img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid white;
+   
+  }
+
+.section-5 .review .row .column {
+    float: left;
+    width: 25%;
+    padding: 0 10px;
+  }
+  
+.section-5 .review .row {
+    margin: 0 -5px;
+}
+  
+.section-5 .review .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+.section-5 .review .row .column .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .section-5 .review .row .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .section-2 .container .row .col-md-4 .card {
+     width: 16rem;
+    }
+  }
