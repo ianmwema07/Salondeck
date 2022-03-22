@@ -5,7 +5,7 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
     text-align: center;
-    color: rgb(28, 6, 141);
+    color: rgb(14, 2, 90);
     padding: 0px;
     height: 50vw;
     margin: auto;
@@ -21,5 +21,8 @@
 .btn-orange{
     background-color: rgb(234, 232, 246);
   margin-bottom: 50px;
+}
+.section-1 li a:hover{ 
+    color: rgb(36, 28, 75,);
 }
 
