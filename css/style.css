@@ -1,3 +1,72 @@
+/* styling on gallery section */
+#gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid: gap 10px;
+  grid-template-areas: 
+  "gallery-h2 gallery-h2 gallery-h2 gallery-h2 gallery-h2"
+  "img1 img20 img3 img6 img12"
+  "img9 img8 img5 img18 img11";
+
+}
+
+#gallery .gallery-img {
+  width: 100%;
+  height: 300px;
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+
+
+/* images */
+#gallery h5 {
+  grid-area: gallery-h2;
+}
+#gallery .img1 {
+  grid-area: img1;
+  background-image: url("../Images/Gallery/Img1.jpg");
+}
+#gallery .img20 {
+  grid-area: img20;
+  background-image: url("../Images/Gallery/img20.jpg");
+}
+#gallery .img3 {
+  grid-area: img3;
+  background-image: url("../Images/Gallery/Img3.jpg");
+}
+#gallery .img6 {
+  grid-area: img6;
+  background-image: url("../Images/Gallery/Img6.jpg");
+}
+#gallery .img12 {
+  grid-area: img12;
+  background-image: url("../Images/Gallery/Img12.jpg");
+}
+#gallery .img9 {
+  grid-area: img9;
+  background-image: url("../Images/Gallery/Img9.jpg");
+}
+#gallery .img8 {
+  grid-area: img8;
+  background-image: url("../Images/Gallery/Img8.jpg");
+}
+#gallery .img5 {
+  grid-area: img5;
+  background-image: url("../Images/Gallery/img5.jpg");
+}
+#gallery .img18 {
+  grid-area: img18;
+  background-image: url("../Images/Gallery/Img18.jpg");
+}
+#gallery .img11 {
+  grid-area: img11;
+  background-image: url("../Images/Gallery/Img11.jpg");
+}
+
+/* styling on contact us section */
 #contactus {
     background-color: rgb(234,232,246) ;
     color: rgb(36,28,75);
@@ -87,4 +156,4 @@
       width: 0%;
       margin-top: 0;
     }
-  } */
+  } 
