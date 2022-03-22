@@ -26,14 +26,14 @@
 
 .section-5 .aboutus{
   text-align: center;
-  /* background-image: url(../img/daniele-levis-pelusi-Vey6fioB1eI-unsplash.jpg);
+  background-image: url(../Images/isabella-and-zsa-fischer-nBcOnMoP18g-unsplash-removebg-preview.png);
   background-size: cover;
   background-repeat: no-repeat;
   max-height: 100%;
   color: black;
   text-align: center;
-  padding-bottom: 50px;
-  padding-top: 100px; */
+  padding-bottom: 200px;
+  padding-top: 50px;
 
 }
 .section-5 .story{
@@ -87,7 +87,7 @@
     height: 75px;
     width: 75px;
     padding: 3px;
-    background:rgb(201,173,188);
+    background:rgb(36,28,75);
     border-radius: 50%;
     
   }
