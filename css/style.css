@@ -9,12 +9,13 @@
     padding: 0px;
     height: 50vw;
     margin: auto;
+    
 }
 #head{
     font-family: "Zhi Mang Xing", cursive;
     margin: 0;
     font-size: 20px;
-    color: rgb(36, 28, 75,);
+    color: rgb(76, 63, 148);
     padding: 200px 250px;
     padding-bottom: 100px;
 }
@@ -25,4 +26,9 @@
 .section-1 li a:hover{ 
     color: rgb(36, 28, 75,);
 }
+.section-1 .navbar-nav{
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
 
