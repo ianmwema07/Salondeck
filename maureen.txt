@@ -1,0 +1,24 @@
+.section-1{
+    background-image: url(../img/benyamin-bohlouli-_C-S7LqxHPw-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: rgb(37, 16, 34);
+    padding-top: 0px;
+    height: 50vw;
+    margin: auto;
+}
+#head{
+    font-family: "Zhi Mang Xing", cursive;
+    margin: 0;
+    font-size: 20px;
+    color: #3d050a;
+    padding: 50px 250px;
+}
+.btn-orange{
+    background-color: #632303;
+  margin-bottom: 40px;
+}
+
