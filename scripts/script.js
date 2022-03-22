@@ -20,5 +20,7 @@ $(document).ready(function(){
 
         var newAppointment = new Appointment(firstName,lastName,service,style,date,time);
 
+        $("tbody#appointmentTable").append("<tr><td>"+newAppointment.firstName+"</td></tr>" );
+
     });
 });
