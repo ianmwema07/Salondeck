@@ -1,3 +1,4 @@
+<<<<<<< .merge_file_zGHlpE
 .section-1{
     background-image: url(../img/pexels-delbeautybox-705255.jpg);
     background-position: center;
@@ -31,4 +32,185 @@
     padding-bottom: 0px;
 }
 
+=======
+/* styling on gallery section */
+#gallery {
+  background-color:rgb(36,28,75);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-gap: 20px;
+  grid-template-areas: 
+  "gallery-h3 gallery-h3 gallery-h3 gallery-h3 gallery-h3"
+  "img1 img20 img3 img6 img12"
+  "img9 img8 img5 img18 img11"
+  "img2 img22 img23 img24 img26";
 
+}
+
+#gallery .gallery-img {
+  width: 100%;
+  height: 300px;
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
+  cursor: pointer;
+}
+
+
+/* images */
+#gallery h3 {
+  grid-area: gallery-h3;
+}
+#gallery .img1 {
+  grid-area: img1;
+  background-image: url("../Images/Gallery/Img1.jpg");
+}
+#gallery .img20 {
+  grid-area: img20;
+  background-image: url("../Images/Gallery/img20.jpg");
+}
+#gallery .img3 {
+  grid-area: img3;
+  background-image: url("../Images/Gallery/img3.jpg");
+}
+#gallery .img6 {
+  grid-area: img6;
+  background-image: url("../Images/Gallery/img6.jpg");
+}
+#gallery .img12 {
+  grid-area: img12;
+  background-image: url("../Images/Gallery/img12.jpg");
+}
+#gallery .img9 {
+  grid-area: img9;
+  background-image: url("../Images/Gallery/img9.jpg");
+}
+#gallery .img8 {
+  grid-area: img8;
+  background-image: url("../Images/Gallery/img8.jpg");
+}
+#gallery .img5 {
+  grid-area: img5;
+  background-image: url("../Images/Gallery/img5.jpg");
+}
+#gallery .img18 {
+  grid-area: img18;
+  background-image: url("../Images/Gallery/img18.jpg");
+}
+#gallery .img11 {
+  grid-area: img11;
+  background-image: url("../Images/Gallery/img11.jpg");
+}
+#gallery .img2 {
+  grid-area: img2;
+  background-image: url("../Images/Gallery/img2.jpg");
+}
+#gallery .img22 {
+  grid-area: img22;
+  background-image: url("../Images/Gallery/img22.jpg");
+}
+#gallery .img23 {
+  grid-area: img23;
+  background-image: url("../Images/Gallery/img23.jpg");
+}
+#gallery .img24 {
+  grid-area: img24;
+  background-image: url("../Images/Gallery/img24.jpg");
+}
+#gallery .img26 {
+  grid-area: img26;
+  background-image: url("../Images/Gallery/img26.jpg");
+}
+
+/* image titles */
+.gallery-img div {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gallery-img a{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: rgb(234,232,246) ;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+gallery-img div:hover {
+  
+  opacity: 0.8;
+  transition: all ease-in-out 100ms;
+  
+}
+
+/* styling on contact us section */
+#contactus {
+    background-color: rgb(234,232,246) ;
+    color: rgb(36,28,75);
+}
+
+#contactus #message {
+    height: fit-content;
+    padding-bottom: 100px;
+    margin-bottom: 30px;
+    color: rgb(36,28,75); 
+}
+
+.footer-basic {
+    padding:40px 0;
+    background-color:rgb(36,28,75);
+    color:rgb(234,232,246);
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  #socials {
+    padding-top: 10px;
+    align-items: center;
+    text-align: center;
+ }
+  
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:rgb(234,232,246);
+    margin-bottom:0;
+  }
+  
+>>>>>>> .merge_file_95kP5H
+
+  * Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+      .contacting {
+        width: 0%;
+        margin-top: 0;
+      };
+    }; 
