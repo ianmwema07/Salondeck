@@ -1,4 +1,4 @@
-<<<<<<< .merge_file_zGHlpE
+
 .section-1{
     background-image: url(../img/pexels-delbeautybox-705255.jpg);
     background-position: center;
@@ -32,7 +32,7 @@
     padding-bottom: 0px;
 }
 
-=======
+
 /* styling on gallery section */
 #gallery {
   background-color:rgb(36,28,75);
@@ -205,12 +205,4 @@ gallery-img div:hover {
     margin-bottom:0;
   }
   
->>>>>>> .merge_file_95kP5H
 
-  * Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media screen and (max-width: 600px) {
-      .contacting {
-        width: 0%;
-        margin-top: 0;
-      };
-    }; 
