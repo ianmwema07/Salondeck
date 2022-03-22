@@ -1,23 +1,33 @@
 .section-1{
-  background-image: url(../img/benyamin-bohlouli-_C-S7LqxHPw-unsplash.jpg);
+  background-image: url(../img/pexels-delbeautybox-705255.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   text-align: center;
-  color: rgb(37, 16, 34);
-  padding-top: 0px;
+  color: rgb(56, 39, 167);
+  padding: 0px;
   height: 50vw;
   margin: auto;
+  
 }
 #head{
-  font-family: "Zhi Mang Xing", cursive;
+  font-family: "Zhi Mang Xing";
   margin: 0;
   font-size: 20px;
-  color: #27152e;
-  padding: 50px 250px;
+  color: rgb(76, 63, 148);
+  padding: 200px 250px;
+  padding-bottom: 100px;
 }
 .btn-orange{
-  background-color: #180363;
-margin-bottom: 40px;
+  background-color: rgb(234, 232, 246);
+margin-bottom: 50px;
 }
+.section-1 li a:hover{ 
+  color: rgb(36, 28, 75,);
+}
+.section-1 .navbar-nav{
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
