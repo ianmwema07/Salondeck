@@ -17,6 +17,17 @@ hr.dotted {
 }
 .services{
   box-shadow: 0px 4px 8px rgba(0,0,0,0.15);
+  padding: 20px;
+}
+.services:hover {
+  transform: scale(1.1);
+  transition: transform 0.2s ease;
+  border-radius: 0;
+  border: 0;
+}
+
+.card-img-top{
+  max-width: 100%;
 }
 
 .card-body h6{
@@ -30,7 +41,6 @@ button{
 
 .aboutus{
   text-align: center;
-  
 }
 .story{
   text-align: center;
