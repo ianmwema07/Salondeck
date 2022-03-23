@@ -1,4 +1,6 @@
-
+*{
+    font-family: 'Poppins', sans-serif;
+}
 .section-2 hr{
   color: aliceblue;
 }
