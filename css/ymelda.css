@@ -121,12 +121,6 @@
     padding: 16px;
     text-align: center;
   }
-.section-4 .mygallery {
-    text-align: right;
-    font-weight: 1000;
-    font-size: larger;
-
-}
   
   @media screen and (max-width: 600px) {
     .section-5 .review .row .column {
@@ -139,5 +133,12 @@
   @media screen and (max-width: 600px) {
     .section-2 .container .row .col-md-4 .card {
      width: 16rem;
+     margin-bottom: 20px;
     }
+  }
+
+  @media screen and (max-width: 600px) {
+    .section-2 .services:hover {
+        transition: none;
+      }
   }
