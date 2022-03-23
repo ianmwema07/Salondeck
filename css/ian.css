@@ -5,15 +5,22 @@ body{
 .section-3 {
   margin-top: 20px ;
   align-items: center;
-  background-color: rgb(37, 16, 34);
-  color: white;
+  background-color: rgb(234,232,246) ;
+  color: #000000;
   margin: 20px;
 }
 
 .section-3 .submit-button button{
   margin-bottom: 20px;
+  background: transparent;
+  border: 1px solid rgb(36,28,75);
+  color: rgb(36,28,75);
 }
 
 .section-3 .section-header{
   text-align: center;
+}
+
+.section-3 .header-div{
+  margin-top: 1em;
 }
