@@ -48,8 +48,6 @@ Feel free to fork the project and add neccessary changes.
 + Maureen Ndiema : `ndiemam@gmail.com`
 + Ymelda Monari : `monaryymelda@gmail.com`
 
-## Known bugs
-There exists a bug on the receipt, an undefined value of the values present.
 
 ## Copyright and license information
 Copyright (c) 2022 Agnes, Ian, Maureen and Ymelda.
