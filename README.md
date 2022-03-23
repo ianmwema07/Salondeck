@@ -39,11 +39,11 @@ Feel free to fork the project and add neccessary changes.
 + HTML 5 -  This was used to structure the webpages.
 + CSS3 - This was used to style the webpage
 + Bootstrap 5 -Webpage styling.
-+ Javascript -  This was used to make the webpage interactive.
-+ jQuery - This was used to make the webpage dynamic.
++ Font Awesome - This was Used for iconography
 + MDI-icons - This was used for iconography
++ Form Spree - For collecting form data
 ## Contact information
-+ Agnes Koinange : 
++ Agnes Koinange : `koinangeagness@gmail.com`
 + Ian Kariuki : `ianmwema07@gmail.com`
 + Maureen Ndiema : `ndiemam@gmail.com`
 + Ymelda Monari : `monaryymelda@gmail.com`
