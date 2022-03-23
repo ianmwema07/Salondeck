@@ -1,4 +1,4 @@
-.section-1{
+.section-1 {
   background-image: url(../img/pexels-delbeautybox-705255.jpg);
   background-position: center;
   background-size: cover;
@@ -9,9 +9,8 @@
   padding: 0px;
   height: 50vw;
   margin: auto;
-  
 }
-#head{
+#head {
   font-family: "Zhi Mang Xing";
   margin: 0;
   font-size: 20px;
@@ -20,21 +19,54 @@
   padding-bottom: 100px;
   text-align: center;
 }
-.btn-orange{
+.btn-orange {
   background-color: rgb(234, 232, 246);
-margin-bottom: 50px;
+  margin-bottom: 50px;
 }
-.section-1 li a:hover{ 
-  color: rgb(36, 28, 75,);
+.section-1 li a:hover {
+  color: rgb(36, 28, 75);
 }
-.section-1 .navbar-nav{
+.section-1 .navbar-nav {
   padding-top: 0px;
   padding-bottom: 0px;
 }
 
+.section-1 .nav-item {
+  list-style: none;
+  display: flex;
+}
+.section-1 .nav-link a {
+  display: inline-block;
+  padding: 15px 20px;
+  text-decoration: none;
+}
+.section-1 .nav-link {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+.section-1 .nav-link:hover {
+  background-color: rgb(84, 70, 163);
+}
+
+.section-1 .navbar-brand {
+  display: inline-block;
+}
+.section-1 .navbar-brand {
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 40px;
+}
+
 @media only screen and (max-width: 768px) {
   /* For mobile phones: */
-  #head{
+  #head {
     font-family: "Zhi Mang Xing";
     margin: 0;
     font-size: 20px;
