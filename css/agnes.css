@@ -128,7 +128,7 @@ gallery-img div:hover {
   margin-bottom: 30px;
   color: rgb(36, 28, 75);
 }
-.section-6 #send-button {
+.section-6 .sendButton {
   margin: 20px;
   background: transparent;
   border: 1px solid rgb(36,28,75);
