@@ -30,44 +30,48 @@
               <a class="nav-link " aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Services</a>
+              <a class="nav-link" href="#servicess">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Gallery</a>
+              <a class="nav-link" href="#galleries">Gallery</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">AboutUs</a>
+                <a class="nav-link" href="#aboutus">AboutUs</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Testimonials</a>
-              </li>
+                <a class="nav-link" href="#testimonialss">Testimonials</a>
+                </li>
             </li>
             <li class="nav-item">
-              <a class="nav-link able">ContactUs</a>
-            </li>
+              <a class="nav-link able" href="#contactus">ContactUs</a>
           </ul>
         </div>
       </nav>  
     <div class="mask rgba-black-light align-items-center">
-      <div class="container" id="head">
+      <div class="container d-flex justify-content-center" id="head">
         <div class="row">
-          <div class="col-md-12 mb-4 white-text text-center text">
-            <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 pulse">
-              <strong class="text">SalonDeck</strong>
-            </h1>
-            <h1 class="text-uppercase mb-4 white-text floater">
-              <strong class="text">Best Salon in Town!</strong>
-            </h1>
-            <a class="btn btn-orange button floater" href="#Services">
-              Our Services!</a>
+          <div class="col-md-12 mb-4">
+            <div class="header-text">
+              <h1 class="h1-reponsive white-text text-uppercase font-weight-bold mb-0 pt-md-5 pt-5 pulse">
+                <strong class="text">SalonDeck</strong>
+              </h1>
+              <h1 class="text-uppercase mb-4 white-text floater">
+                <strong class="text">Best Salon in Town!</strong>
+              </h1> <br>
+            </div>
+            <div class="hedear-button">
+              <a class="btn btn-orange button floater" href="#section-3">
+                Book Appointment</a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </div>
-  <br><br>
+  <br><br> 
   <div class="section-2">
-    <h1 style="text-align:center;"></h1style>Services</h1>
+    <a name="servicess"> 
+    <h1 style="text-align:center; color:rgb(36,28,75)"></h1style>Services</h1>
     <br>
     <div class="container">
       <div class="row">
@@ -75,7 +79,7 @@
           <div class="card services" style="width: 22rem;">
             <img src="./img/image.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h4>Hair center</h4>
+              <h4>Hair</h4>
               <br>
               <h6><strong>Protective hairstyles</strong>  <hr>From Kes 2,000 </h6> <hr class="dotted">
               <h6><strong>Hair treatment</strong>  <hr>From Kes 1,000 </h6> <hr class="dotted">
@@ -88,7 +92,7 @@
           <div class="card services" style="width: 22rem;" >
             <img src="./img/nail-gfc316dd9a_1920.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h4>Nails Center</h4>
+              <h4>Nails</h4>
               <br>
               <h6><strong>Manicure</strong>  <hr>From Kes 1,500 </h6> <hr class="dotted">
               <h6><strong>Pedicure</strong>  <hr>From Kes 1,500 </h6> <hr class="dotted">
@@ -101,7 +105,7 @@
           <div class="card services" style="width: 22rem;" >
             <img src="./img/241-1000x668.jpeg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h4>Spa Center</h4>
+              <h4>Spa</h4>
               <br>
               <h6><strong>Massage</strong>  <hr>From Kes 3,000 </h6> <hr class="dotted">
               <h6><strong>Hot stone</strong>  <hr>From Kes 4,000 </h6> <hr class="dotted">
@@ -114,46 +118,54 @@
       </div>
     </div>
   </div>
-  <div class="section-3">
-    <form action=" ">
-      <div class="row">
-        <div class="mb-3 mt-3 col-lg-6">
-          <label for="fname" class="form-label">First Name:</label>
-          <input type="text" class="form-control" id="firstName" placeholder="Enter your First Name" name="firstName">
+  <br><br>
+  <div class="d-flex justify-content-center">
+    <div class="section-3 container" id="section-3">
+      <form action=" ">
+        <div class="row">
+          <div class="mb-3 mt-3 col-lg-6">
+            <label for="fname" class="form-label">First Name:</label>
+            <input type="text" class="form-control" id="firstName" placeholder="Enter your First Name" name="firstName">
+          </div>
+          <div class="mb-3 mt-3 col-lg-6">
+            <label for="lname" class="form-label">Last Name:</label>
+            <input type="text" class="form-control" id="lastName" placeholder="Enter your Last Name" name="firstName">
+          </div>
         </div>
-        <div class="mb-3 mt-3 col-lg-6">
-          <label for="lname" class="form-label">Last Name:</label>
-          <input type="text" class="form-control" id="lastName" placeholder="Enter your Last Name" name="firstName">
+        <div class="row">
+          <div class="mb-3 mt-3 col-lg-6">
+            <label for="service" class="form-label">Service:</label>
+            <input type="text" class="form-control" id="service" placeholder="Enter Service" name="service">
+          </div>
+          <div class="mb-3 mt-3 col-lg-6">
+            <label for="style" class="form-label">Style:</label>
+            <input type="text" class="form-control" id="style" placeholder="Enter Style" name="style">
+          </div>
         </div>
-      </div>
-      <div class="row">
-        <div class="mb-3 mt-3 col-lg-6">
-          <label for="service" class="form-label">Service:</label>
-          <input type="text" class="form-control" id="service" placeholder="Enter Service" name="service">
+        <div class="row">
+          <div class="mb-3 mt-3 col-lg-6">
+            <label for="date" class="form-label">Date:</label>
+            <input type="date" class="form-control" id="date"name="date">
+          </div>
+          <div class="mb-3 mt-3 col-lg-6">
+            <label for="time" class="form-label">Time:</label>
+            <input type="time" class="form-control" id="time" name="time">
+          </div>
         </div>
-        <div class="mb-3 mt-3 col-lg-6">
-          <label for="style" class="form-label">Style:</label>
-          <input type="text" class="form-control" id="style" placeholder="Enter Style" name="style">
+        <div class="submit-button d-flex justify-content-center">
+          <button  type="submit" class="btn">Submit</button>
         </div>
-      </div>
-      <div class="row">
-        <div class="mb-3 mt-3 col-lg-6">
-          <label for="date" class="form-label">Date:</label>
-          <input type="date" class="form-control" id="date"name="date">
-        </div>
-        <div class="mb-3 mt-3 col-lg-6">
-          <label for="time" class="form-label">Time:</label>
-          <input type="time" class="form-control" id="time" name="time">
-        </div>
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+      </form>
+    </div>
   </div>
   <br><br>
    <!-- Gallery -->
+
+   <div class="mygallery">
+    <h1 style ="text-align: center; color:rgb(36,28,75)">Gallery</h1>
+  </div>
    <div class="container-fluid section-4" id="gallery">
-    
-    <h3 style="color:rgb(234,232,246); text-align: center;">Our photo Gallery</h3>
+    <a name="galleries">
     <div class="gallery-img img1">
       <div><a a href="#"></a></div>
 
@@ -216,13 +228,15 @@
     </div>
 
   </div>
+  <br><br>
   
     <!-- About us -->
     <!-- Testimonials (3)-->
   <div class="section-5">
+    <a name="aboutus">
     <div class="container-fluid">
       <div class="aboutus">
-        <h1 style="text-align:center;">About Us</h1>
+        <h1 style="text-align:center; color:rgb(36,28,75)">About Us</h1>
         <br>
         <div class="row">
           <div class="col-md-4">
@@ -251,7 +265,7 @@
         </div>
         <br>
         <div class="story">
-          <h3>Our story</h3>
+          <h3 style="color:rgb(36,28,75)">Our story</h3>
           <p>SalonDeck standouts amongst the amazing brands in the hair and beauty industry in Nairobi,Kenya because we specialise in natural hairstyles. </p>
           <p>Our customers are vital to us, so we constantly train our staff to guarantee that all services are of the most astounding standard and that every customer gets the best attention and cosideration. The new Beauty and Skin Clinic spa will enable us to give customers head to toe massages with our specialised staff leaving you refreshed.</p>
         </div>
@@ -262,17 +276,18 @@
     <br>
 
     <!-- Testimonials -->
-    <h1 style="text-align:center;">Testimonials</h1>
+    <a name="testimonialss">
+    <h1 style="text-align:center;color:rgb(36,28,75)">Testimonials</h1>
     <div class=" container review">
       <div class="row">
         <div class="column">
           <div class="card">
             <i class="fas fa-quote-left quote"></i>
-        <p>Very pleasant atmosphere, especially considering the difficult times we are all facing with the current pandemic. Extremely clean area! Greeted very warmly upon my entrance and seated almost immediately.</p>
+        <p>Pleasant atmosphere, especially considering the difficult times we are all facing with the current pandemic. Extremely clean area! Greeted very warmly and was seated almost immediately.</p>
         <div class="content">
           <div class="info">
             <div class="name">Alice Mwema</div>
-            <div class="job">Fashion Designer | WCfashion</div>
+            <div class="job">Designer | WCfashion</div>
             <div class="stars">
               <i class="fas fa-star"></i>
               <i class="fas fa-star"></i>
@@ -290,7 +305,7 @@
         <div class="column">
           <div class="card">
             <i class="fas fa-quote-left quote"></i>
-        <p>Been having my nails done at SalonDeck for several months and the services is absolutely amazing. They never break, never chip and I get so many comments on how amazing my nails always look.</p>
+        <p>Been having my nails done at SalonDeck for several months and the services is absolutely amazing. They never break, never chip and I get so many comments on how amazing my nails always look. I love the place so much.</p>
         <div class="content">
           <div class="info">
             <div class="name">Imani Amani</div>
@@ -312,7 +327,7 @@
         <div class="column">
           <div class="card">
             <i class="fas fa-quote-left quote"></i>
-        <p>I have been struggling with natural hair stylists that are not passionate with their art for many, many years. The staff are gentle and careful with natural african hair. I became part of their art.</p>
+        <p>I have been struggling with natural hair stylists that are not passionate with their art for many, many years. The staff are gentle and careful with natural african hair. I became part of their art. Keep up!</p>
         <div class="content">
           <div class="info">
             <div class="name">Mercy Lukusa</div>
@@ -355,87 +370,20 @@
         </div>
       </div>
     </div>
-
-
-
-    <!-- <div class="container review">
-      <div class="card customerreview">
-        <i class="fas fa-quote-left quote"></i>
-        <p>Very pleasant atmosphere, especially considering the difficult times we are all facing with the current pandemic. Extremely clean area! Greeted very warmly upon my entrance and seated almost immediately.</p>
-        <div class="content">
-          <div class="info">
-            <div class="name">Alice Mwema</div>
-            <div class="job">Fashion Designer | WCfashion</div>
-            <div class="stars">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="far fa-star"></i>
-            </div>
-          </div>
-          <div class="imagereview">
-            <img src="./img/photo-1593351799227-75df2026356b.jpeg" alt="a woman">
-          </div>
-        </div>
-      </div>
-      <div class="card customerreview">
-        <i class="fas fa-quote-left quote"></i>
-        <p>Been having my nails done at SalonDeck for several months and the services is absolutely amazing. They never break, never chip and I get so many comments on how amazing my nails always look.</p>
-        <div class="content">
-          <div class="info">
-            <div class="name">Mercy Lukusa</div>
-            <div class="job">Manager | Marini Naturals</div>
-            <div class="stars">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-          </div>
-          <div class="imagereview">
-            <img src="./img/pexels-dalila-dalprat-1995130.jpg" alt="a woman">
-          </div>
-        </div>
-      </div>
-      <div class="card customerreview">
-        <i class="fas fa-quote-left  quote"></i>
-        <p>I have been struggling with natural hair stylists that are not passionate with their art for many, many years. The staff are gentle and careful with natural african hair. I became part of their art </p>
-        <div class="content">
-          <div class="info">
-            <div class="name">Lilian Lemaiyan</div>
-            <div class="job">Youtuber | BlackDon'tCrack</div>
-            <div class="stars">
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-              <i class="fas fa-star"></i>
-            </div>
-          </div>
-          <div class="imagereview">
-            <img src="./img/pexels-nappy-935985.jpg" alt="a woman">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div> -->
   </div>
   <!-- Contact-->
+     <!--heading-->
+     <h2 class="h1-responsive font-weight-bold text-center my-4">Contact Us</h2>
 <div class="container-fluid section-6" >
+  <a name="contactus">
   <div class="container mb-4" id="contactus">
-    <!--heading-->
-    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
     <!-- description-->
-    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+    <p class="text-center w-responsive mx-auto mb-5" id="howWeCanHelp">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
         a matter of hours to help you.</p>
-
     <div class="row">
-
         <!--Grid column-->
         <div class="col-md-9 mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form" action="" method="">
+            <form onsubmit= "messageValidate ()" id="contact-form" name="contact-form" action="" method="">
 
                 <!--Grid row-->
                 <div class="row">
@@ -444,7 +392,7 @@
                     <div class="col-md-6">
                         <div class="md-form mb-0">
                             <label for="name" class="">Your name</label>
-                            <input type="text" id="name" name="name" class="form-control">
+                            <input type="text" id="Name" name="name" class="form-control">
                         </div>
                     </div>
                     <!--Grid column-->
@@ -469,18 +417,19 @@
 
                         <div class="md-form">
                           <label for="message">Your message</label>
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control mtextarea"></textarea>
+                            <textarea type="text" id="Message" name="message" rows="2" class="form-control mtextarea" ></textarea>
                         </div>
 
                     </div>
                 </div>
+                
                 <!--Grid row-->
 
             </form>
-
             <div class="text-center text-md-left">
-                <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
-            </div>
+              <a class="btn" id="#howWeCanHelp" onclick="document.getElementById('contact-form').submit();">Send</a>
+          </div>
+
             <div class="status"></div>
         </div>
         <!--Grid column-->
@@ -516,8 +465,8 @@
             <ul class="list-inline">
                 <li class="list-inline-item"><a href="#">Home</a></li>
                 <li class="list-inline-item"><a href="#">Services</a></li>
-                <li class="list-inline-item"><a href="#">About</a></li>
-                <li class="list-inline-item"><a href="#">Garallery</a></li>
+                <li class="list-inline-item"><a href="#">About Us</a></li>
+                <li class="list-inline-item"><a href="#">Gallery</a></li>
                 <li class="list-inline-item"><a href="#">Contact us</a></li>
             </ul>
             <div class="socialmedia" id="socials"> 

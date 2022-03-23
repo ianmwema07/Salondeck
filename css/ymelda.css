@@ -1,4 +1,6 @@
-
+*{
+    font-family: 'Poppins', sans-serif;
+}
 .section-2 hr{
   color: aliceblue;
 }
@@ -26,14 +28,14 @@
 
 .section-5 .aboutus{
   text-align: center;
-  background-image: url(../img/isabella-and-zsa-fischer-nBcOnMoP18g-unsplash.jpg);
+  /* background-image: url(../img/isabella-and-zsa-fischer-nBcOnMoP18g-unsplash.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   max-height: 100%;
   color: black;
   text-align: center;
   padding-bottom: 200px;
-  padding-top: 50px;
+  padding-top: 50px; */
 
 }
 .section-5 .story{
@@ -76,7 +78,7 @@
 .section-5 .job{
     font-size: 16px;
     font-weight: 500;
-    color:rgb(36,28,75);;
+    color:rgb(36,28,75);
   }
 .section-5 .stars{
     margin-top: 5px;
@@ -133,5 +135,14 @@
   @media screen and (max-width: 600px) {
     .section-2 .container .row .col-md-4 .card {
      width: 16rem;
+     margin-bottom: 20px;
     }
   }
+
+  @media screen and (max-width: 700px) {
+    .section-2 .services:hover {
+        transition: none;
+      }
+  }
+
+
