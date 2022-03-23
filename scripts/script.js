@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 let gallaryImages=document.querySelectorAll(".gallery-img");
 let getLatestOpenedImg;
 let windowWidith =window.innerWidth;
@@ -35,5 +35,5 @@ function Appointment(firstName,lastName,service,style,date,time)
     this.style = style;
     this.date = date;
     this.time = time;
-}
+} 
 

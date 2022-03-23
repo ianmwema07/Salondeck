@@ -32,3 +32,15 @@ margin-bottom: 50px;
   padding-bottom: 0px;
 }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #head{
+    font-family: "Zhi Mang Xing";
+    margin: 0;
+    font-size: 20px;
+    color: rgb(76, 63, 148);
+    padding: 0px 0px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+}
