@@ -14,7 +14,7 @@ Currently, there is a lot of time being wasted on the salon due to waiting or lo
 ## Project resources
 The following is a live-link to the project's site
 
-Link : ``
+Link : `https://ianmwema07.github.io/Salondeck/`
 ## Requirements
 + Either a smartphone, computer or tablet
 + An access to the internet
