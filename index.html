@@ -119,40 +119,59 @@
     </div>
   </div>
   <br><br>
+
+  <div class="header-div d-flex justify-content-center">
+    <h1>Book Appointment</h1>
+  </div>
   <div class="d-flex justify-content-center">
     <div class="section-3 container" id="section-3">
-      <div class="header-div d-flex justify-content-center">
-        <h1>Book Appointment</h1>
-      </div>
-      <form action=" ">
+      <form action="https://formspree.io/f/mknyzdwq"
+      method="POST">
         <div class="row">
           <div class="mb-3 mt-3 col-lg-6">
             <label for="fname" class="form-label">First Name:</label>
-            <input type="text" class="form-control" id="firstName" placeholder="Enter your First Name" name="firstName">
+            <input type="text" class="form-control" id="firstName" placeholder="Enter your First Name" name="firstName" required>
           </div>
           <div class="mb-3 mt-3 col-lg-6">
             <label for="lname" class="form-label">Last Name:</label>
-            <input type="text" class="form-control" id="lastName" placeholder="Enter your Last Name" name="firstName">
+            <input type="text" class="form-control" id="lastName" placeholder="Enter your Last Name" name="lastName" required>
           </div>
         </div>
         <div class="row">
           <div class="mb-3 mt-3 col-lg-6">
-            <label for="service" class="form-label">Service:</label>
-            <input type="text" class="form-control" id="service" placeholder="Enter Service" name="service">
-          </div>
+          <label for="service" class="form-label">Service:</label>
+          <select class="form-select" aria-label="Default select example" name="service" required>
+            <option selected>Click to select service</option>
+            <option value="Hair">Hair</option>
+            <option value="Mani/Pedi">Manicure and Pedicure</option>
+            <option value="Massage">Spa</option>
+            <option value="make-up">Make-Up</option>
+          </select>
+        </div>
           <div class="mb-3 mt-3 col-lg-6">
             <label for="style" class="form-label">Style:</label>
-            <input type="text" class="form-control" id="style" placeholder="Enter Style" name="style">
+            <select class="form-select" aria-label="Default select example" name="style" required>
+              <option selected>Click to  select style of service</option>
+              <option >=======Hair=======</option>
+              <option value="braids">Braiding</option>
+              <option value="Dreadlocks">Dreadlocks</option>
+              <option value="Hair Blowdry">Hair Blowdry</option>
+              <option>======Spa======</option>
+              <option value="full body">Full Body Massage</option>
+              <option value="foot massage">Foot Massage</option>
+              <option value="deep tissue">Deep Tissue Massage</option>
+            </select>
+            
           </div>
         </div>
         <div class="row">
           <div class="mb-3 mt-3 col-lg-6">
             <label for="date" class="form-label">Date:</label>
-            <input type="date" class="form-control" id="date"name="date">
+            <input type="date" class="form-control" id="date"name="date" required>
           </div>
           <div class="mb-3 mt-3 col-lg-6">
             <label for="time" class="form-label">Time:</label>
-            <input type="time" class="form-control" id="time" name="time">
+            <input type="time" class="form-control" id="time" name="time" required>
           </div>
         </div>
         <div class="submit-button d-flex justify-content-center">
@@ -388,7 +407,8 @@
 
         <!--Grid column-->
         <div class="col-md-9 mb-md-0 mb-5">
-            <form id="contact-form" name="contact-form" action="" method="">
+            <form id="contact-form" name="contact-form"  action="https://formspree.io/f/xrgjlnqo"
+            method="POST">
 
                 <!--Grid row-->
                 <div class="row">
@@ -397,7 +417,7 @@
                     <div class="col-md-6">
                         <div class="md-form mb-0">
                             <label for="name" class="">Your name</label>
-                            <input type="text" id="name" name="name" class="form-control">
+                            <input type="text" id="name" name="name" class="form-control" required>
                         </div>
                     </div>
                     <!--Grid column-->
@@ -406,7 +426,7 @@
                     <div class="col-md-6">
                         <div class="md-form mb-0">
                             <label for="email" class="">Your email</label>
-                            <input type="text" id="email" name="email" class="form-control">
+                            <input type="text" id="email" name="email" class="form-control" required>
                         </div>
                     </div>
                     <!--Grid column-->
@@ -422,7 +442,7 @@
 
                         <div class="md-form">
                           <label for="message">Your message</label>
-                            <textarea type="text" id="message" name="message" rows="2" class="form-control mtextarea"></textarea>
+                            <textarea type="text" id="message" name="message" rows="2" class="form-control mtextarea" required></textarea>
                         </div>
 
                     </div>
@@ -472,6 +492,7 @@
                 <li class="list-inline-item"><a href="#">About Us</a></li>
                 <li class="list-inline-item"><a href="#">Gallery</a></li>
                 <li class="list-inline-item"><a href="#">Contact us</a></li>
+                <li class="list-inline-item"><a href="#">Staff Login</a></li>
             </ul>
             <div class="socialmedia" id="socials"> 
               <img src="./Images/social_icons/twitter.png" alt="twitter" class="img-fluid">
