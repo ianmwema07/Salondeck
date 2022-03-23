@@ -1,3 +1,17 @@
+<<<<<<< HEAD
+let gallaryImages=document.querySelectorAll(".gallery-img");
+let getLatestOpenedImg;
+let windowWidith =window.innerWidth;
+
+if(gallaryImages){
+    gallaryImages, forEach(function(image){
+        image.onclick=function(){
+            alert("it works")
+        }
+
+    });
+}
+
 
 document.getElementById('contact-form').submit();
     function messageValidate () {
@@ -12,40 +26,14 @@ document.getElementById('contact-form').submit();
         else{
         alert ("Your message have been received we will get back to you!");
             }
-        }
 
-
-
-    
-
-
-
-
-
-// function validateForm() {
-//     var name =  document.getElementById('name').value;
-//     if (name == "") {
-//         document.querySelector('.status').innerHTML = "Name cannot be empty";
-//         return false;
-//     }
-//     var email =  document.getElementById('email').value;
-//     if (email == "") {
-//         document.querySelector('.status').innerHTML = "Email cannot be empty";
-//         return false;
-//     } 
-//     var subject =  document.getElementById('subject').value;
-//     if (subject == "") {
-//         document.querySelector('.status').innerHTML = "Subject cannot be empty";
-//         return false;
-//     }
-//     var message =  document.getElementById('message').value;
-//     if (message == "") {
-//         document.querySelector('.status').innerHTML = "Message cannot be empty";
-//         return false;
-//     }
-//     document.querySelector('.status').innerHTML = "Sending...";
-//   }
-
-
-
+function Appointment(firstName,lastName,service,style,date,time)
+{
+    this.firstName = firstName;
+    this.lastName = lastName;
+    this.service = service;
+    this.style = style;
+    this.date = date;
+    this.time = time;
+}
 
