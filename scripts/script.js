@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 let gallaryImages=document.querySelectorAll(".gallery-img");
 let getLatestOpenedImg;
 let windowWidith =window.innerWidth;
